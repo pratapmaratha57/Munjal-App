@@ -1,0 +1,36 @@
+<h2><i class="fa fa-truck"></i> Manage Delivery Schedule</h2>
+<hr><br>
+<div id="d1" class="container">
+<h4>Delivery Schedule Type 
+    <select>
+        <option value="">All </option>
+        <option value="">Weekly</option>
+        <option value="">Monthly</option>
+        <option value="">Yearly</option>
+    </select>&nbsp;&nbsp;
+    <button class="btn btn-success">Search</button>
+</h4>
+</div>
+<div id="d2">
+<h3><a>Results 1-4 of 4</a><span><button class="btn btn-primary">Export to Excel</button></span></h3>
+<br>
+<table border="1">
+    <thead>
+        <th>Purchase Order No</th>
+        <th>Purchase Order Date</th>
+        <th>Delivery Schedule No</th>
+        <th>Delivery Schedule Date</th>
+        <th>Deliery Schedule</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users">
+            <!-- *ngIf="istoken==user.email" -->
+            <td>{{user.sappoNo}}</td>
+            <td>{{user.poDate|date: 'dd/MM/yyyy' }}</td>
+            <td>{{user.dsMainID}}</td>
+            <td>{{user.dsEnteredDate|date: 'dd/MM/yyyy'}}</td>
+            <td><a href="/viewdelivery" (click)="selecteddelivery(user.dsMainID)">View</a></td>
+        </tr>
+    </tbody>
+</table>
+</div>

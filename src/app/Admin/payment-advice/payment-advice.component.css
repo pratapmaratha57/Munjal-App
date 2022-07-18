@@ -1,0 +1,15 @@
+.container{
+    width: 50vw;
+}
+#d1{
+    width: 35vw;
+    background-color: lightgray;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+h2{
+    color: brown;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

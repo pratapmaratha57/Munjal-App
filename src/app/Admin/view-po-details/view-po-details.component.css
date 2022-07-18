@@ -1,0 +1,31 @@
+.container{
+    width: 80vw;
+}
+#in{
+    background-color: lightgrey;
+    width:75vw;
+    height: 37vh;
+    overflow: auto;
+    padding-left: 50px;
+    margin-left: 17px;
+    border-radius: 8px;
+    border: 1px solid lightslategrey;
+    /* text-align: center; */
+}
+
+table{
+    border: 1px solid black;
+}
+thead{
+    color: white;
+    background-color: rgb(187, 59, 59);
+}
+td,th{
+    padding: 5px;
+}
+/* h4{
+    column-gap:100px;
+} */
+span{
+    margin-left: 100px;
+}

@@ -1,0 +1,39 @@
+span{
+    float: right;
+}
+#d1{
+    background-color: lightgray;
+    width: 78vw;
+    /* margin-left:10px; */
+    padding: 10px;
+    /* column-gap: 50px; */
+    /* column-count: 3; */
+}
+h2{
+    color: brown;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 80vw;
+}
+
+
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+thead{
+    background-color: rgb(187, 59, 59);
+    color: white;
+}
+td,th{
+    padding: 5px;
+    font-size: 17px;
+}
+ #d2
+            {
+            padding: 3px;
+            width: 320px;
+            height: 120px;
+            }

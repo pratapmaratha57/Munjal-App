@@ -1,0 +1,49 @@
+.container{
+    width: 80vw;
+}
+#d1{
+    background-color: lightgray;
+    width: 70vw;
+    margin-left: 40px;
+    padding: 10px;
+    /* column-gap: 50px; */
+    /* column-count: 3; */
+}
+span{
+    margin-left: 100px;
+}
+#d2{
+    width: 75vw;
+    background-color: lightgray;
+    display: flex;
+    column-gap: 350px;
+    padding: 10px;
+    margin-left: 10px;
+}
+#d3{
+    background-color: lightgray;
+    width: 75vw;
+    display: flex;
+    column-gap: 350px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid;
+}
+thead{
+    background-color: rgb(187, 59, 59);
+    color: white;
+
+}
+th{
+    font-size: 12px;
+}
+td{
+    padding: 10px;
+}
+.invc{
+    float: right;
+}

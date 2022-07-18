@@ -1,0 +1,16 @@
+<div class="container">
+    <div style="margin:0px;background-color:#17324ade;opacity:0.9;">
+        <app-sidebar></app-sidebar>
+        <!-- <app-admin-menu></app-admin-menu> -->
+    </div>
+    <section style="position: relative;">
+         <div style="position:  absolute;">
+            <i class="fa fa-3x fa-sign-out text-primary" (click)="logout()"></i><br>
+            <router-outlet></router-outlet>
+          </div>
+            <div [hidden]="show" class="chatbox">
+                <app-chat></app-chat>
+            </div>               
+    </section>
+           <!-- <button class="togglbtn"  (click)="isshow()"><i class="fa fa-3x fa-commenting-o"></i></button>       -->
+</div>

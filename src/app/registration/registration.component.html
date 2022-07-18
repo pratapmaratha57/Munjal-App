@@ -1,0 +1,50 @@
+<div class="container">
+    <h2>Register New User</h2>
+
+    <hr style="border: 1px solid black;">
+    <form (ngSubmit)="registerUser()" [formGroup]="registerform">
+
+        Username
+        <input type="text" class="form-control" id="uname" placeholder="Username" formControlName="uname">
+
+        Password
+        <input type="text" class="form-control" id="pwd" placeholder="Password" formControlName="pwd">
+
+        FirstName
+        <input type="text" class="form-control" id="fname" placeholder="Firstname" formControlName="fname">
+
+
+        LastName
+        <input type="text" class="form-control" id="lname" placeholder="Lastname" formControlName="lname">
+
+
+        Email ID
+        <input type="text" class="form-control" id="email" placeholder="Email" formControlName="email">
+
+
+        User Type
+
+        <select class="form-control" id="types" formControlName="types">
+            <option value="admin">Admin</option>
+            <option value="supplier">supplier</option>
+        </select>
+
+        Role
+
+        <select class="form-control" id="roles" formControlName="roles">
+            <option value="admin">Admin</option>
+            <option value="superadmin">SuperAdmin</option>
+            <option value="user">User</option>
+            <option value="supplier">supplier</option>
+        </select>
+        <br>
+        <div style="text-align: center;">
+            <button class="btn-primary">Sign up</button><br>
+            <a style=" font-weight: bold; text-decoration: underline;" routerLink="/">Already register? click to
+                Login</a>
+        </div>
+
+
+    </form>
+</div>
+

@@ -1,0 +1,38 @@
+#in{
+    background-color: lightgrey;
+    width:85%;
+    /* height: 27vh; */
+    /* overflow: auto; */
+    padding: 10px;
+    margin-left: 80px;
+    border-radius: 5px;
+    border: 1px solid lightslategrey;
+    /* text-align: center; */
+}
+.container{
+    width: 80vw;
+}
+table{
+    border: 1px solid black;
+}
+thead{
+    color: white;
+    background-color: rgb(187, 59, 59);
+}
+td,th{
+    padding: 5px;
+}
+/* h4{
+    column-gap:30px;
+} */
+span{
+    margin-left: 40px;
+}
+h5{
+    font-size: 17px;
+}
+#divtable{
+    border: 1px solid lightgrey;
+    width: 100%;
+    font-size: 16px;
+}

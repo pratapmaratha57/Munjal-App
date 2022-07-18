@@ -1,0 +1,55 @@
+.container{
+    width: 80vw;
+}
+#d1{
+    background-color: lightgray;
+    width: 70vw;
+    margin-left: 40px;
+    padding: 10px;
+    /* column-gap: 50px; */
+    /* column-count: 3; */
+}
+.inpt{
+    width: 50px;
+    /* padding: 5px 2px; */
+}
+#d2{
+    width: 75vw;
+    background-color: lightgray;
+    /* display: flex; */
+    /* column-gap: 50px; */
+    padding: 5px;
+    margin-left: 10px;
+}
+#d3{
+    background-color: lightgray;
+    /* width: 70vw; */
+    /* display: flex; */
+    /* column-gap: 8px; */
+    padding: 5px;
+    /* margin-left: 40px; */
+}
+.inp1{
+    width: 100px;
+}
+td{
+    padding: 2px;
+}
+table{
+    width: 100%;
+    border: 1px solid;
+}
+thead{
+    background-color: rgb(187, 59, 59);
+    color: white;
+}
+/* td,th{
+    padding: 3px;
+    font-size: 17px;
+} */
+.invc{
+    float: right;
+}
+.uptable{
+    border: 1px solid lightgrey;
+}

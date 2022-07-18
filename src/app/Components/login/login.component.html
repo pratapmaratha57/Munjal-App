@@ -1,0 +1,64 @@
+<div class="container-fluid">
+    <div class="r1">
+        <form [formGroup]="loginform" (ngSubmit)="loginUser()">
+            <h1>Login</h1>
+
+            <br>
+            <table>
+                <tr>
+                    <!-- formControlName="Suppradio" name="Suppradio" id="s1" -->
+                    <td><input type="radio" name="gender" checked>
+                        <label for="s1"> &nbsp;Suppilers</label>
+                    </td>
+                    <td>
+                        <!-- formControlName="Adminradio" name="Adminradio" id="s2" -->
+                        <input type="radio" name="gender">
+                        <label for="s2"> &nbsp;Users</label>
+                    </td>
+                </tr><br>
+                <tr>
+                    <td><label for="sid">User Id </label></td>
+                    <td>
+                        <div class="input-container">
+                            <i class="fa fa-user-circle"></i>
+                            <input type="text" formControlName="uid" id="uid" placeholder="Email Id" required />
+                        </div>
+                    </td>
+                </tr><br>
+                <tr>
+                    <td><label for="pwd">Password </label></td>
+                    <td>
+                        <div class="input-container">
+                            <i class="fa fa-unlock-alt"></i>
+                            <input type="password" formControlName="pwd" id="pwd" placeholder="Password" required>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="pwd"> </label></td>
+                    <td>
+                        <input type="checkbox" id="check">
+                         <label for="check"> &nbsp;Remember Me</label>&nbsp;&nbsp;
+                         <br>
+                         <a style="text-decoration: underline; font-weight:bold; " routerLink="/recoverpwd">Recover Password</a>
+                         <br>
+                         <a style="text-decoration: underline; font-weight:bold; " routerLink="/register">New User? click to Singup</a>
+                    </td>
+                </tr>
+
+            </table>
+            <br>
+
+            
+
+            <br>
+
+
+            <button style="text-align: center;" class="btn btn-primary">Sign In</button>
+
+
+
+        </form>
+    </div>
+</div>
